@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom";
 import React from "react";
+import "./index.css";
 
 function Display(props) {
   const items = props.fooditems;
@@ -27,12 +28,16 @@ function Display(props) {
       {items.map((item) => (
         <div>
           <h2>
-            Item : {item.items}, Quantity : {item.quantity}, Price :{" "}
+            &nbsp; Item : {item.items}, Quantity : {item.quantity}, Price :{" "}
             {item.price}
           </h2>
-          <button onClick={() => increment(item)}>Add To Cart</button>
+          <button className="btn" onClick={() => increment(item)}>
+            Add To Cart
+          </button>
           &nbsp;&nbsp;&nbsp;
-          <button onClick={() => decrement(item)}>Remove From Cart</button>
+          <button className="btn1" onClick={() => decrement(item)}>
+            Remove From Cart
+          </button>
         </div>
       ))}
       <h1>Total Quantity: {quantity}</h1>
