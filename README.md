@@ -1,3 +1,3 @@
-# Task-Tracker-App
-- Created Task-Tracker by implementing useEffect and React Router
+# E-commerce-Cart-Implementation
+- React-JS Cart Implemetation
 - CodeSandbox URL :- https://codesandbox.io/s/github/KhushiPatel12/Task-Tracker-App
